@@ -1,3 +1,4 @@
+---
 name: AppDaemon
 version: dev
 slug: appdaemon
@@ -5,9 +6,9 @@ description: Python Apps and Dashboard using AppDaemon 4.x for Vioneta Agro
 url: https://github.com/Vioneta/addon-appdaemon
 webui: http://[HOST]:[PORT:5050]
 arch:
-- aarch64
-- amd64
-- armv7
+  - aarch64
+  - amd64
+  - armv7
 init: false
 homeassistant_api: true
 uart: true
@@ -16,11 +17,11 @@ ports:
 ports_description:
   5050/tcp: AppDaemon
 map:
-- addon_config:rw
-- homeassistant_config:rw
-- media:rw
-- share:rw
-- ssl
+  - addon_config:rw
+  - homeassistant_config:rw
+  - media:rw
+  - share:rw
+  - ssl
 options:
   system_packages: []
   python_packages: []
@@ -28,8 +29,8 @@ options:
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   system_packages:
-  - str
+    - str
   python_packages:
-  - str
+    - str
   init_commands:
-  - str
+    - str
