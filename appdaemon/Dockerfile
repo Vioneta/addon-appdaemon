@@ -57,7 +57,7 @@ LABEL \
     maintainer="Vioneta <admin@vioneta.com>" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="Vioneta Community Add-ons" \
+    org.opencontainers.image.vendor="Vioneta Agro Community Add-ons" \
     org.opencontainers.image.authors="Vioneta <admin@vioneta.com>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://github.com/Vioneta/repository" \
